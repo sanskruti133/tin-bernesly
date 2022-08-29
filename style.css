@@ -1,0 +1,103 @@
+body
+{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.pic
+{
+    border-radius: 50%;
+}
+
+#welcome
+{
+    position: absolute;
+    bottom: 0 ;
+background:linear-gradient(#4663e3 0%, #966fe8 100%);
+display: table;
+width: 100%;
+height: 100%;
+}
+
+h1
+{
+    font-size: 40px;
+font-weight: 300;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#name
+{
+font-size: 50px;
+
+font-family: 'Edu QLD Beginner', cursive;
+}
+
+h2
+{
+    font-size: 40px;
+font-weight: 300;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#bio
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+
+.line
+{
+    height: 6px;
+    width: 70px;
+    background-color: darkblue;
+    margin: 8px auto;
+}
+
+.parallax-inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu
+{
+  
+    position: fixed;
+    top: 0px;
+  margin-top: 0px;
+  width: 100%;
+  background: whitesmoke
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links
+{
+   display: inline;
+   
+padding-right: 25px;
+padding-left: 33px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+}
+
+links:hover
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+a
+{
+    text-decoration: none ;
+}
+
+#writing a 
+{
+    text-decoration: underline !important;
+    color:aquamarine !important;
+}
+
+
+
